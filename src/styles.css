@@ -1,0 +1,69 @@
+html,
+body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  background: #b31525;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn{
+    padding: 0 2.5%;
+}
+
+.black-colp{
+    background-color: #424242;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.red-colp{
+    background: #b31525;
+    color:  #b31525;
+}
+
+.red-colp-clear{
+    background: #e8091d;
+    color: #e8091d;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: black;
+}
+
+/* label underline color */
+.row .input-field input,.input-field textarea.materialize-textarea {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+    color: red !important;
+}
+/* label underline focus color */
+.row .input-field input:focus,.row .input-field textarea.materialize-textarea:focus {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: red;
+}
+
+.img-cam{
+    width: 100%;
+    max-width: 360px;
+    margin: 4% 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datepicker-date-display{
+    background-color: #b31525;
+}
+   

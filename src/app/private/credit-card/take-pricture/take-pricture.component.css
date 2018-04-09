@@ -1,0 +1,100 @@
+.card-content-red{
+    background: #b31525;
+}
+
+.img-cam{
+    display: block;
+}
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .take-card{
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .img-document{
+        padding: 0% 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70% !important;
+    }
+}
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
+    .take-card{
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .img-document{
+        padding: 0% 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70% !important;
+    }
+}
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .take-card{
+        margin: 3%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .img-document{
+        padding: 0% 1%;
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80% !important;
+    }
+}
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .take-card{
+        margin: 3%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 68%;
+    }
+    .img-document{
+        padding: 0% 1%;
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40% !important;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .take-card{
+        padding: 0% 4%;
+        margin-top: 1%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+    .img-document{
+        padding: 0% 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50% !important;
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .take-card{
+        margin: 4% 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+}

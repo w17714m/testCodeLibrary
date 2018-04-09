@@ -1,0 +1,9 @@
+html,
+body{
+    background: white;
+    height: 100%;
+}
+
+.logo-splash{
+    width: 25%;
+}

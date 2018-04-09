@@ -1,0 +1,43 @@
+<app-nav-bar></app-nav-bar>
+<div class="row client-data-card">
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image card-content-red">
+          <h1 class="white-text center-align titulo">Datos cliente</h1>
+          <div class="row">
+              <div class="input-field col s10 offset-s1">
+                <i class="material-icons prefix">credit_card</i>
+                <input id="document" type="text" class="validate" />
+                <label for="document">Número de documento</label>
+              </div>
+              <div class="input-field col s10 offset-s1">
+                <i class="material-icons prefix">person_pin</i>
+                <input id="name" type="text" class="validate" />
+                <label for="name">Nombres</label>
+              </div>
+              <div class="input-field col s10 offset-s1">
+                  <i class="material-icons prefix">date_range</i>
+                  <input id="date" type="text" class="validate datepicker" readonly="true"/>
+                  <label for="date">Fecha expedición</label>
+                </div>
+          </div>
+          <br>
+          <a class="btn-floating btn-large halfway-fab waves-effect waves-light red-colp-clear activator"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+            <div class="row">
+              <div class="col s6" >
+                  <img class="img-cam" src="/assets/svgs/icon-ok.svg" />
+              </div>
+              <div class="col s6" >
+                  <img class="img-cam" src="/assets/svgs/icon-mal.svg" />
+              </div>
+            </div>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Datos cliente<i class="material-icons right">close</i></span>
+            <p>{{data}}</p>
+          </div>
+      </div>
+    </div>
+  </div>
